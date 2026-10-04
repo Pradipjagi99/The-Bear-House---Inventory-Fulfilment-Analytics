@@ -108,3 +108,58 @@ The completed analysis provides the following key business metrics:
 | `vw_sales_analysis` | Sales, orders, quantities, discounts, gross sales, and net sales analysis |
 | `vw_returns_analysis` | Return quantities, refund amounts, return reasons, and return status analysis |
 | `vw_inventory_analysis` | Inventory levels, stock status, unit cost, and inventory value analysis |
+
+## 🗄️ SQL Analysis & Data Preparation
+
+PostgreSQL was used for database creation, data loading, cleaning, validation, analytical querying, and preparation of reporting datasets for Power BI.
+
+### SQL Workflow
+
+The SQL work was organized into separate scripts covering the major stages of the project:
+
+| SQL Script | Purpose |
+|---|---|
+| [`01_database_schema.sql`](./SQL/01_database_schema.sql) | Creates the database tables, keys, constraints, and analytical structure |
+| [`02_data_cleaning.sql`](./SQL/02_data_cleaning.sql) | Cleans invalid records and prepares the transactional datasets |
+| [`03_data_validation.sql`](./SQL/03_data_validation.sql) | Performs NULL, duplicate, orphan-record, referential-integrity, and coverage checks |
+| [`04_sales_analysis.sql`](./SQL/04_sales_analysis.sql) | Analyzes sales, orders, units, discounts, revenue, and sales channels |
+| [`05_inventory_analysis.sql`](./SQL/05_inventory_analysis.sql) | Analyzes stock levels, inventory value, stores, categories, and products |
+| [`06_returns_analysis.sql`](./SQL/06_returns_analysis.sql) | Analyzes return quantities, refund amounts, return reasons, and return rates |
+| [`07_fulfilment_analysis.sql`](./SQL/07_fulfilment_analysis.sql) | Analyzes delivery performance, delivery time, and late fulfilment |
+| [`08_analytical_views.sql`](./SQL/08_analytical_views.sql) | Creates reusable analytical and KPI views for Power BI |
+
+### Key SQL Techniques Used
+
+- `JOIN` operations across fact and dimension tables
+- `GROUP BY` and aggregate functions
+- `CASE WHEN` conditional logic
+- `COUNT`, `SUM`, `AVG`, and `DISTINCT`
+- Data-quality and referential-integrity checks
+- NULL and duplicate detection
+- Orphan-record identification
+- Financial reconciliation
+- KPI aggregation
+- Creation of reusable PostgreSQL analytical views
+
+### Data Cleaning Results
+
+- Removed **40,762 invalid order-item records**
+- Retained **209,238 valid order-item records**
+- Removed **2,895 invalid return records**
+- Retained **14,605 valid return records**
+- Cleaned inventory to **12,233,440 valid records**
+- Loaded **100,000 fulfilment records**
+
+### Analytical Views
+
+The following PostgreSQL views were created for Power BI:
+
+- `vw_sales_analysis`
+- `vw_returns_analysis`
+- `vw_inventory_analysis`
+
+Additional KPI views were created for validation and aggregated analysis:
+
+- `vw_sales_kpi`
+- `vw_returns_kpi`
+- `vw_inventory_kpi`
