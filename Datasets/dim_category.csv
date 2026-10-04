@@ -1,0 +1,13 @@
+category_id,category_name,parent_category
+1,Men's Clothing,
+2,Women's Clothing,
+3,Kids' Clothing,
+4,T-Shirts,Men's Clothing
+5,Shirts,Men's Clothing
+6,Jeans,Men's Clothing
+7,Trousers,Men's Clothing
+8,Dresses,Women's Clothing
+9,Tops,Women's Clothing
+10,Skirts,Women's Clothing
+11,Jackets,Men's Clothing
+12,Accessories,

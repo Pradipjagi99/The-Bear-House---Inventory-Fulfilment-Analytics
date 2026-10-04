@@ -1,0 +1,11 @@
+store_id,store_name,city,state,region,store_type,opening_date
+1,The Bear House - Mumbai,Mumbai,Maharashtra,West,Premium,2018-01-24
+2,The Bear House - Delhi,Delhi,Delhi,North,Standard,2019-04-05
+3,The Bear House - Bengaluru,Bengaluru,Karnataka,South,Premium,2018-11-24
+4,The Bear House - Hyderabad,Hyderabad,Telangana,South,Premium,2018-10-14
+5,The Bear House - Chennai,Chennai,Tamil Nadu,South,Flagship,2018-02-07
+6,The Bear House - Pune,Pune,Maharashtra,West,Flagship,2022-10-01
+7,The Bear House - Kolkata,Kolkata,West Bengal,East,Premium,2019-12-21
+8,The Bear House - Ahmedabad,Ahmedabad,Gujarat,West,Premium,2022-07-08
+9,The Bear House - Jaipur,Jaipur,Rajasthan,North,Standard,2022-05-26
+10,The Bear House - Lucknow,Lucknow,Uttar Pradesh,North,Flagship,2019-12-14
