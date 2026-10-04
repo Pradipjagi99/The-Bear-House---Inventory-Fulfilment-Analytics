@@ -80,3 +80,31 @@ The completed analysis provides the following key business metrics:
 | **Average Order Value** | **4.42K** |
 
 > **Note:** The database contains **100,000 order headers** in `fact_orders`. The **82K** figure represents distinct orders available in the cleaned `vw_sales_analysis` dataset used for the sales dashboard.
+
+### Dimension Tables
+
+| Table | Description |
+|---|---|
+| [`dim_category`](./Datasets/dim_category.csv) | Product category information |
+| [`dim_date`](./Datasets/dim_date.csv) | Date, month, quarter, year, and day attributes |
+| [`dim_product`](./Datasets/dim_product.csv) | Product master data |
+| [`dim_product_variant`](./Datasets/dim_product_variant.csv) | Product-level variant information |
+| [`dim_store`](./Datasets/dim_store.csv) | Store and location information |
+
+### Fact Tables
+
+| Table | Description |
+|---|---|
+| [`fact_orders`](./Datasets/fact_orders.csv) | Order-level transactional information |
+| [`fact_order_items`](./Datasets/fact_order_items.csv) | Individual products and quantities within orders |
+| [`fact_inventory`](./Datasets/fact_inventory.csv) | Inventory snapshots across products, variants, stores, and dates |
+| [`fact_fulfilment`](./Datasets/fact_fulfilment.csv) | Order fulfilment and delivery information |
+| [`fact_returns`](./Datasets/fact_returns.csv) | Product return and refund transactions |
+
+### Analytical Views
+
+| View | Purpose |
+|---|---|
+| `vw_sales_analysis` | Sales, orders, quantities, discounts, gross sales, and net sales analysis |
+| `vw_returns_analysis` | Return quantities, refund amounts, return reasons, and return status analysis |
+| `vw_inventory_analysis` | Inventory levels, stock status, unit cost, and inventory value analysis |
