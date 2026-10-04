@@ -119,14 +119,14 @@ The SQL work was organized into separate scripts covering the major stages of th
 
 | SQL Script | Purpose |
 |---|---|
-| [`01_database_schema.sql`](./SQL/01_database_schema.sql) | Creates the database tables, keys, constraints, and analytical structure |
-| [`02_data_cleaning.sql`](./SQL/02_data_cleaning.sql) | Cleans invalid records and prepares the transactional datasets |
-| [`03_data_validation.sql`](./SQL/03_data_validation.sql) | Performs NULL, duplicate, orphan-record, referential-integrity, and coverage checks |
-| [`04_sales_analysis.sql`](./SQL/04_sales_analysis.sql) | Analyzes sales, orders, units, discounts, revenue, and sales channels |
-| [`05_inventory_analysis.sql`](./SQL/05_inventory_analysis.sql) | Analyzes stock levels, inventory value, stores, categories, and products |
-| [`06_returns_analysis.sql`](./SQL/06_returns_analysis.sql) | Analyzes return quantities, refund amounts, return reasons, and return rates |
-| [`07_fulfilment_analysis.sql`](./SQL/07_fulfilment_analysis.sql) | Analyzes delivery performance, delivery time, and late fulfilment |
-| [`08_analytical_views.sql`](./SQL/08_analytical_views.sql) | Creates reusable analytical and KPI views for Power BI |
+| [`01_database_schema.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/01_database_schema.sql) | Creates the database tables, keys, constraints, and analytical structure |
+| [`02_data_cleaning.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/02_data_cleaning.sql) | Cleans invalid records and prepares the transactional datasets |
+| [`03_data_validation.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/03_data_validation.sql) | Performs NULL, duplicate, orphan-record, referential-integrity, and coverage checks |
+| [`04_sales_analysis.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/04_sales_analysis.sql) | Analyzes sales, orders, units, discounts, revenue, and sales channels |
+| [`05_inventory_analysis.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/05_inventory_analysis.sql) | Analyzes stock levels, inventory value, stores, categories, and products |
+| [`06_returns_analysis.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/06_returns_analysis.sql) | Analyzes return quantities, refund amounts, return reasons, and return rates |
+| [`07_fulfilment_analysis.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/07_fulfilment_analysis.sql) | Analyzes delivery performance, delivery time, and late fulfilment |
+| [`08_analytical_views.sql`](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/SQL%20Query/08_analytical_views.sql) | Creates reusable analytical and KPI views for Power BI |
 
 ### Key SQL Techniques Used
 
