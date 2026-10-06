@@ -448,3 +448,63 @@ The inventory calculation was also validated using:
 ```text
 Inventory Value = Closing Stock × Unit Cost
 
+```
+
+## 🧮 Key DAX Measures
+
+The Power BI dashboard uses DAX measures to calculate core business KPIs and analytical metrics.
+
+### Sales Measures
+
+```DAX
+Net Sales =
+SUM ( 'public vw_sales_analysis'[net_amount] )
+
+Gross Sales =
+SUM ( 'public vw_sales_analysis'[gross_amount] )
+
+Total Orders =
+DISTINCTCOUNT ( 'public vw_sales_analysis'[order_id] )
+
+Total Units Sold =
+SUM ( 'public vw_sales_analysis'[quantity] )
+
+Average Order Value =
+DIVIDE ( [Net Sales], [Total Orders] )
+
+Total Refunds =
+SUM ( 'public vw_returns_analysis'[refund_amount] )
+
+Total Returned Units =
+SUM ( 'public vw_returns_analysis'[return_quantity] )
+
+Return Rate =
+DIVIDE ( [Total Returned Units], [Total Units Sold] )
+
+Closing Stock =
+SUM ( 'public vw_inventory_analysis'[closing_stock] )
+
+Inventory Value =
+SUM ( 'public vw_inventory_analysis'[inventory_value] )
+
+Average Unit Cost =
+AVERAGE ( 'public vw_inventory_analysis'[unit_cost] )
+
+Delivery Status =
+IF(
+    'public fact_fulfilment'[actual_delivery]
+        <= 'public fact_fulfilment'[promised_delivery],
+    "On Time",
+    "Late"
+)
+
+Late Delivery Rate =
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('public fact_fulfilment'),
+        'public fact_fulfilment'[Delivery Status] = "Late"
+    ),
+    COUNTROWS('public fact_fulfilment')
+)
+```
+
