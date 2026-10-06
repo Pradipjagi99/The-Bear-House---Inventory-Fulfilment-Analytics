@@ -163,3 +163,26 @@ Additional KPI views were created for validation and aggregated analysis:
 - `vw_sales_kpi`
 - `vw_returns_kpi`
 - `vw_inventory_kpi`
+
+## 🖼️ Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100147.jpg)
+
+### Sales Analysis
+
+![Sales Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100333.jpg)
+
+### Inventory Analysis
+
+![Inventory Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100417.jpg)
+
+### Returns & Customer Analysis
+
+![Returns & Customer Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100450.jpg)
+
+### Fulfilment & Operations Analysis
+
+![Fulfilment & Operations Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100520.jpg)
+
