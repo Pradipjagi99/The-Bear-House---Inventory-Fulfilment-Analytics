@@ -225,6 +225,20 @@ The Power BI report uses a structured analytical model with shared dimensions, a
 - Late Delivery Rate
 - Store-level delivery performance
 
+## 📊 Power BI Dashboard
+
+The interactive Power BI report was developed using PostgreSQL, Power Query,
+data modeling, and DAX.
+
+Due to the size of the `.pbix` file, the Power BI source file is hosted
+separately rather than stored directly in this GitHub repository.
+
+### Dashboard Preview
+
+Screenshots of the completed dashboard are available below.
+
+[View Dashboard Screenshots](./PowerBI/Screenshots)
+
 ## 🖼️ Dashboard Preview
 
 ### Executive Overview
