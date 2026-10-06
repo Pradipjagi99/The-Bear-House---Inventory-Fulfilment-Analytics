@@ -241,25 +241,37 @@ Screenshots of the completed dashboard are available below.
 
 ## 🖼️ Dashboard Preview
 
+The Power BI report consists of multiple analytical pages designed to provide a complete view of sales, inventory, returns, and fulfilment performance.
+
 ### Executive Overview
 
-![Executive Overview](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100147.jpg)
+Provides a high-level view of business performance through key KPIs including Net Sales, Total Orders, Units Sold, Refunds, Average Order Value, Inventory Value, Return Rate, and Closing Stock.
+
+[![Executive Overview](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100147.jpg)](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100147.jpg)
 
 ### Sales Analysis
 
-![Sales Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100333.jpg)
+Analyzes revenue, units sold, average selling price, discounts, order channels, order status, and category-level sales performance.
+
+[![Sales Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100333.jpg)](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100333.jpg)
 
 ### Inventory Analysis
 
-![Inventory Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100417.jpg)
+Provides visibility into closing stock, inventory value, stock status, stock turnover, low-stock products, and inventory distribution across stores and categories.
+
+[![Inventory Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100417.jpg)](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100417.jpg)
 
 ### Returns & Customer Analysis
 
-![Returns & Customer Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100450.jpg)
+Analyzes returned units, refund amounts, return reasons, return rates, product categories, and return status.
+
+[![Returns & Customer Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100450.jpg)](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100450.jpg)
 
 ### Fulfilment & Operations Analysis
 
-![Fulfilment & Operations Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100520.jpg)
+Tracks fulfilment volume, average delivery days, on-time versus late deliveries, store-level delivery performance, and monthly operational trends.
+
+[![Fulfilment & Operations Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100520.jpg)](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100520.jpg)
 
 ## 🔍 Key Business Insights
 
