@@ -164,6 +164,67 @@ Additional KPI views were created for validation and aggregated analysis:
 - `vw_returns_kpi`
 - `vw_inventory_kpi`
 
+## 📈 Power BI Dashboard
+
+The cleaned PostgreSQL datasets were connected to Power BI to build an interactive business intelligence dashboard.
+
+The Power BI report uses a structured analytical model with shared dimensions, analytical views, and DAX measures to provide consistent filtering and business-level analysis.
+
+### Dashboard Pages
+
+| Page | Purpose |
+|---|---|
+| **Cover Page** | Project introduction and report branding |
+| **Executive Overview** | High-level business performance and key KPIs |
+| **Sales Analysis** | Sales, revenue, discounts, orders, and product performance |
+| **Inventory Analysis** | Stock levels, inventory value, stock turnover, and inventory distribution |
+| **Returns & Customer Analysis** | Returns, refunds, return reasons, and return-rate analysis |
+| **Fulfilment & Operations Analysis** | Delivery performance, fulfilment volume, and late-delivery analysis |
+
+### Power BI Features Used
+
+- Data modeling and relationship management
+- Star-schema-oriented analytical model
+- DAX measures for business KPIs
+- Power Query for data preparation
+- Interactive slicers and cross-filtering
+- KPI cards
+- Trend analysis
+- Category and product-level analysis
+- Store-level performance analysis
+- Conditional business analysis
+
+### Key Analytical Areas
+
+**Sales**
+- Net Sales
+- Gross Sales
+- Units Sold
+- Average Order Value
+- Discounts
+- Sales by category, channel, store, and product
+
+**Inventory**
+- Closing Stock
+- Inventory Value
+- Stock Status
+- Stock Turnover
+- Inventory distribution by category, store, and product
+
+**Returns**
+- Returned Units
+- Refund Amount
+- Return Rate
+- Return Reasons
+- Return Status
+
+**Fulfilment**
+- Fulfilment Volume
+- Average Delivery Days
+- On-Time Delivery
+- Late Delivery Rate
+- Store-level delivery performance
+
 ## 🖼️ Dashboard Preview
 
 ### Executive Overview
