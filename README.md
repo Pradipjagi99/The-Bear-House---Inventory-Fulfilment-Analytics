@@ -282,3 +282,143 @@ The analysis of sales, inventory, returns, and fulfilment data produced several 
 - Delivery performance varies across stores, allowing operational teams to identify locations with comparatively higher delivery delays.
 - Monthly fulfilment and late-delivery trends provide visibility into changes in operational performance over time.
 - Delivery-day analysis helps identify the distribution and typical duration of fulfilment cycles.
+
+## 💡 Business Recommendations
+
+Based on the analysis, the following actions could help improve commercial performance, inventory efficiency, customer experience, and fulfilment operations.
+
+### 1. Optimize Inventory Allocation
+
+Use product-, category-, and store-level inventory analysis to identify locations with excess stock and locations approaching low-stock levels.
+
+**Recommended action:**
+- Prioritize replenishment for low-stock products.
+- Review excess inventory across stores.
+- Consider reallocating slow-moving inventory to locations with stronger demand.
+
+### 2. Improve Stock Turnover
+
+Use stock turnover analysis to identify products and categories where inventory is not converting efficiently into sales.
+
+**Recommended action:**
+- Monitor slow-moving products regularly.
+- Use targeted promotions to improve inventory movement.
+- Avoid excessive replenishment of products with consistently low turnover.
+
+### 3. Monitor Return Drivers
+
+The return analysis highlights differences in return volume, refund amounts, and return reasons.
+
+**Recommended action:**
+- Investigate categories and products with comparatively high return rates.
+- Analyze recurring return reasons.
+- Use return insights to improve product information, sizing guidance, quality checks, and customer communication where applicable.
+
+### 4. Reduce Late Deliveries
+
+With **28.57% of fulfilments classified as late**, delivery performance represents an important operational improvement opportunity.
+
+**Recommended action:**
+- Identify stores with comparatively higher late-delivery rates.
+- Investigate operational causes of delivery delays.
+- Monitor late-delivery rates regularly at store and monthly levels.
+- Compare promised versus actual delivery performance to improve fulfilment planning.
+
+### 5. Improve Fulfilment Planning
+
+Store-level fulfilment volume and average delivery time can be used to understand operational workload and delivery efficiency.
+
+**Recommended action:**
+- Monitor fulfilment volumes across stores.
+- Identify locations experiencing consistently higher delivery times.
+- Align operational capacity with fulfilment demand where necessary.
+
+### 6. Balance Discounts and Revenue
+
+Discount analysis can help evaluate how promotional activity affects sales performance.
+
+**Recommended action:**
+- Monitor discount levels alongside net sales.
+- Identify categories where discounts generate strong sales contribution.
+- Review high-discount areas where incremental sales may not justify the reduction in revenue.
+
+### 7. Establish Ongoing KPI Monitoring
+
+The Power BI dashboard can be used as a recurring management reporting tool rather than a one-time analysis.
+
+**Recommended action:**
+Track the following KPIs regularly:
+
+- Net Sales
+- Units Sold
+- Average Order Value
+- Inventory Value
+- Closing Stock
+- Return Rate
+- Refund Amount
+- On-Time Fulfilment Rate
+- Late Delivery Rate
+- Average Delivery Days
+
+> **Note:** These recommendations are based on the analytical framework and observed patterns in the project. Store-, product-, and category-specific actions should be validated against operational context before implementation.
+
+## 🧹 Data Cleaning & Validation
+
+Data quality checks were performed throughout the preparation process to ensure that the datasets used for analysis were consistent, complete, and suitable for reporting.
+
+### Data Cleaning
+
+The following cleaning activities were performed:
+
+- Identified and removed invalid product variant references from transactional datasets.
+- Removed **40,762 invalid order-item records**, retaining **209,238 valid records**.
+- Removed **2,895 invalid return records**, retaining **14,605 valid records**.
+- Cleaned the inventory dataset by removing records associated with invalid product variants.
+- Retained **12,233,440 valid inventory records**.
+- Prepared the fulfilment dataset using a staging table before loading the final `fact_fulfilment` table.
+- Mapped source fields to the final analytical schema where source and target column names differed.
+- Preserved source-provided inventory attributes where no reliable business rule was available for recalculation.
+
+### Data Validation
+
+Multiple SQL validation checks were performed, including:
+
+- Primary-key duplicate checks
+- Foreign-key and referential-integrity checks
+- Orphan-record detection
+- NULL-value checks
+- Product and variant coverage checks
+- Store and date coverage checks
+- Fulfilment record integrity checks
+- Financial reconciliation between base analytical views and KPI aggregations
+
+### Validation Results
+
+| Validation Area | Result |
+|---|---:|
+| Products | **500** |
+| Product Variants | **1,256** |
+| Stores | **10** |
+| Dates Represented | **974** |
+| Fulfilment Records | **100,000** |
+| Valid Order Items | **209,238** |
+| Valid Return Records | **14,605** |
+| Valid Inventory Records | **12,233,440** |
+| Critical Orphan Records | **0** |
+
+### Financial Reconciliation
+
+The core financial calculations were reconciled against the underlying analytical views:
+
+| Metric | Validated Result |
+|---|---:|
+| Gross Sales | **441,825,348.73** |
+| Total Discounts | **77,091,930.09** |
+| Net Sales | **364,733,418.64** |
+| Total Refunds | **22,328,114.90** |
+
+The inventory calculation was also validated using:
+
+```text
+Inventory Value = Closing Stock × Unit Cost
+
