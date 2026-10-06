@@ -237,7 +237,7 @@ separately rather than stored directly in this GitHub repository.
 
 Screenshots of the completed dashboard are available below.
 
-[View Dashboard Screenshots](./PowerBI/Screenshots)
+[View Dashboard Screenshots](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/tree/main/Images)
 
 ## 🖼️ Dashboard Preview
 
