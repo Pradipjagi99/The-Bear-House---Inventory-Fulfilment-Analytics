@@ -508,3 +508,11 @@ DIVIDE(
 )
 ```
 
+## 📚 Project Resources
+
+| Resource | Description |
+|---|---|
+| 📊 [Datasets](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/tree/main/Datasets) | Source dimension and fact datasets used in the analysis |
+| 🗄️ [SQL Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/tree/main/SQL%20Query) | Database schema, cleaning, validation, analytical queries, and views |
+| 📈 [Power BI Dashboard](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/tree/main/Images) | Dashboard screenshots and Power BI-related resources |
+
