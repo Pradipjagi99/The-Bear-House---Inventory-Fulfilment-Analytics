@@ -247,3 +247,38 @@ The Power BI report uses a structured analytical model with shared dimensions, a
 
 ![Fulfilment & Operations Analysis](https://github.com/Pradipjagi99/The-Bear-House---Inventory-Fulfilment-Analytics/blob/main/Images/Screenshot%202026-10-06%20100520.jpg)
 
+## 🔍 Key Business Insights
+
+The analysis of sales, inventory, returns, and fulfilment data produced several business-level observations:
+
+### Sales Performance
+
+- The analysis generated **364.73M in net sales** across the cleaned sales dataset.
+- Total units sold reached approximately **289K**, indicating substantial product movement across the analyzed period.
+- Sales performance varies across product categories, stores, and order channels, highlighting differences in commercial contribution.
+- Product-level analysis helps identify the highest-performing products and categories that contribute significantly to overall revenue.
+- Discount analysis provides visibility into the relationship between promotional activity and net sales.
+
+### Inventory Performance
+
+- The business holds approximately **3.67B units of closing stock** across the analyzed inventory records.
+- Total inventory value is approximately **3.57T**, making inventory allocation and stock efficiency important operational considerations.
+- Inventory concentration varies across products, categories, and stores.
+- Low-stock analysis can help identify products requiring replenishment attention.
+- Stock turnover analysis provides an additional perspective on how efficiently inventory is being converted into sales.
+
+### Returns & Customer Analysis
+
+- Approximately **15K units were returned**, resulting in **22.33M in refunds**.
+- The overall return rate is **5.06%** based on returned units relative to units sold.
+- Return reasons vary in their contribution to returned units and refund amounts.
+- Category-level return analysis helps identify product groups that may require further investigation.
+- Refund analysis provides visibility into the financial impact of product returns.
+
+### Fulfilment & Operations
+
+- The analysis contains **100K fulfilment records**.
+- Approximately **71.43% of fulfilments were completed on time**, while **28.57% were classified as late**.
+- Delivery performance varies across stores, allowing operational teams to identify locations with comparatively higher delivery delays.
+- Monthly fulfilment and late-delivery trends provide visibility into changes in operational performance over time.
+- Delivery-day analysis helps identify the distribution and typical duration of fulfilment cycles.
