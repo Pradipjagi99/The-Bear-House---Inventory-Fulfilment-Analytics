@@ -546,7 +546,7 @@ The solution demonstrates practical skills in:
 
 🔗 [GitHub](https://github.com/Pradipjagi99)
 
-🔗 [LinkedIn](https://www.linkedin.com/in/jagipradiprao/)
+🔗 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jagipradiprao/)
 
 ## 📧 Contact
 
